@@ -51,8 +51,9 @@ Multi-page responsive website made using HTML, CSS, JavaScript
 **September - November 2020 - Course "Website Development Using HTML, CSS and JavaScript" IT-Academy**
 
 **1995-2000 BSEU, Minsk - bachelor's degree, honors**
-Accounting and Economics Faculty
-Specialty "Accounting, analysis and audit in industry"
+
+Accounting and Economics Faculty,
+Speciality "Accounting, analysis and audit in industry"
 
 ### LANGUAGES
 
