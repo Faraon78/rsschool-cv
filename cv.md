@@ -34,3 +34,25 @@ This project is a Single Page Application in JavaScript using Ajax, JQuery
 **December 2000 - "Coworking" website** *[GitHub](https://github.com/Faraon78/FD1_OlgaShch/tree/master/%D0%94%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC FD1)*
 Multi-page responsive website made using HTML, CSS, JavaScript
 
+
+### EDUCATION
+
+**April-July 2021 - Course "React and Angular for Web Application Development" IT-Academy**
+
+**December 2020 - March 2021 - Course "Development of Web Applications in JavaScript" IT-Academy**
+
+**September - November 2020 - Course "Website Development Using HTML, CSS and JavaScript" IT-Academy**
+
+**1995-2000 BSEU, Minsk - bachelor's degree, honors**
+Accounting and Economics Faculty
+Specialty "Accounting, analysis and audit in industry"
+
+### LANGUAGES
+
+English Pre-Intermediate
+I am currently improving the language level with a tutor
+
+### ADDITIONAL INFORMATION
+
+43 years old, I can work with documents, I have a logical mindset, I like to study.
+Hobbies: diving and snorkeling in Egypt, family vacation in a tent on the Braslav Lakes, cycling.
