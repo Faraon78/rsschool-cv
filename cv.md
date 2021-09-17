@@ -23,3 +23,14 @@ React, JavaScript, HTML, CSS
 **2000 - 2011** JSC "AgroProdTorg" Chief Accountant
 
 
+### MY PROJECTS
+
+**July 2021 - "KidsParty" Online Store** *[GitHub](https://github.com/Faraon78/FD3_Shchahliak/tree/main/Diplom)*
+This project is made in React JS using Redux, Ajax, Webpack
+
+**March 2021 - "Color Code" Browser Game** *[GitHub](https://github.com/Faraon78/FD1_OlgaShch/tree/master/%D0%94%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC FD2)*
+This project is a Single Page Application in JavaScript using Ajax, JQuery
+
+**December 2000 - "Coworking" website** *[GitHub](https://github.com/Faraon78/FD1_OlgaShch/tree/master/%D0%94%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC FD1)*
+Multi-page responsive website made using HTML, CSS, JavaScript
+
