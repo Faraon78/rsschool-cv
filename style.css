@@ -26,6 +26,7 @@ aside {
 .section-about{
     text-align: justify;
     text-indent: 20px;
+    padding-right: 10px;
 }
 aside>ul {
     padding-right: 5px;
@@ -37,6 +38,9 @@ main {
 code {
     white-space: pre-wrap;
     background-color: #3b3c49;
+}
+pre {
+    margin-bottom: 0px;
 }
 
 header {
@@ -241,8 +245,12 @@ footer {
     .footer-logoGit{
         width: 60px;
     }
+    .preview{
+        width: 100px;
+        height: 54px;
+    }
 }
-@media screen and (max-width: 490px){
+@media screen and (max-width: 510px){
     body{
         font-size: xx-small;
     }
@@ -272,7 +280,8 @@ footer {
     }
     .footer-logoGit{
         width: 35px;
-    }
+        height: 35px;
+    }    
     section {
         padding-left: 1px;
         padding-right: 1px;
@@ -280,9 +289,17 @@ footer {
     .main-list{
         padding-left: 5px;
     }
+    .preview{
+        width: 67px;
+        height: 36px;
+    }
 }
 @media screen and (max-width: 350px){
     .avatar, aside {
         width: 90px;   
     }
+    code{
+        font-size: 7px;
+    }
+    
 }
