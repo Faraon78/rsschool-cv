@@ -9,18 +9,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="agate.min.css">
+    
 </head>
 <body>
     <div class="page-container">
         <div class="container-top">
             <aside>
-                <img class="avatar" src="Images/avatar.jpg" alt="Olga Shchahliak">
+                <img class="avatar" src="Images/avatar1.jpg" alt="Olga Shchahliak">
             
                 <a class="anchor" name="cont"><h3> CONTACTS </h3></a>
-                <ul>
-                    <li>+375 29 665-72-66</li>
-                    <li>olgaapt@mail.ru</li>
-                    <li>LinkedIn</li>
+                <ul class="contact">
+                    <a class="contact-link" href="viber://chat?number=%2B375296657266"><li class="contact-link">Viber</li></a>
+                    <a class="contact-link" href="mailto:olgaapt@" ><li class="contact-link">olgaapt@mail.ru</li></a>
+                    <a class="contact-link" href="https://www.linkedin.com/in/%D0%BE%D0%BB%D1%8C%D0%B3%D0%B0-%D1%89%D0%B5%D0%B3%D0%BB%D1%8F%D0%BA-1ab526a1/" target="blank"><li class="contact-link">LinkedIn</li></a>
                 </ul>           
             
                 <a class="anchor" name="skills"><h3>SKILLS</h3></a>
@@ -71,7 +73,7 @@
                     
                     <a class="anchor" name="about"><h3> ABOUT ME </h3></a>
 
-                    <p>I am able to organize my working time in a deadline, as I have worked as a chief accountant for more than 20 years, 
+                    <p class="section-about">I am able to organize my working time in a deadline, as I have worked as a chief accountant for more than 20 years, 
                     I am engaged in self-education, I am balanced, I can work in a team. I decided to change my profession, because 
                     I think that not all of my abilities have yet been revealed. I chose Front-End development, because the result 
                     of the work is immediately visible in it, there is a place not only for logic, but also for creativity.</p>
@@ -83,16 +85,23 @@
                     <a class="anchor" name="proj"><h3> MY PROJECTS</h3></a>
                     <ul class="main-list">
                         <li>
-                            <p><strong>07/2021 - "KidsParty" Online Store </strong>GitHub<br/>
-                            This project is made in React JS using Redux, Ajax, Webpack</p>
+                            <p><strong>07/2021 - "KidsParty" Online Store </strong><a href="https://github.com/Faraon78/FD3_Shchahliak/tree/main/Diplom" target="blank"><span class="link-tryit"> GitHub</span></a><br/>
+                            This is a online platform for organizing a children's party. This project is made on React JS using Redux, Ajax, Webpack</p>
+                            <a href="https://github.com/Faraon78/FD3_Shchahliak/tree/main/Diplom" target="blank"><img class="preview" src="Images/KidsParty1.jpg"></a>
+                            <a href="https://github.com/Faraon78/FD3_Shchahliak/tree/main/Diplom" target="blank"><img class="preview" src="Images/KidsParty2.jpg"></a>
+
                         </li>
                         <li>
-                            <p><strong>03/2021 - "Color Code" Browser Game </strong>GitHub<br/>
-                            This project is a Single Page Application in JavaScript using Ajax, JQuery</p>
+                            <p><strong>03/2021 - "Color Code" Browser Game </strong><a href="https://htmlpreview.github.io/?https://github.com/Faraon78/FD1_OlgaShch/blob/master/%D0%94%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%20FD2/Game.html#%7B%22pagename%22%3A%22Main%22%7D" target="blank"> <span class="link-tryit">Try it </span></a><br/>
+                            This is a children's logic game, made in the form Single Page Application on JavaScript using Ajax, JQuery</p>
+                            <a href="https://htmlpreview.github.io/?https://github.com/Faraon78/FD1_OlgaShch/blob/master/%D0%94%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%20FD2/Game.html#%7B%22pagename%22%3A%22Main%22%7D" target="blank"><img class="preview" src="Images/ColorCode.jpg"></a>
+                            <a href="https://htmlpreview.github.io/?https://github.com/Faraon78/FD1_OlgaShch/blob/master/%D0%94%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%20FD2/Game.html#%7B%22pagename%22%3A%22Main%22%7D" target="blank"><img class="preview" src="Images/ColorCode1.jpg"></a>
                         </li>
                         <li>
-                            <p><strong>12/2000 - "Coworking" website</strong> GitHub<br/>
+                            <p><strong>12/2000 - "Coworking" website</strong><a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/Faraon78/FD1_OlgaShch/master/%D0%94%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%20FD1/Home.html" target="blank"> <span class="link-tryit">Try it </span></a><br/>
                             Multi-page responsive website made using HTML, CSS, JavaScript</p>
+                            <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/Faraon78/FD1_OlgaShch/master/%D0%94%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%20FD1/Home.html" target="blank"><img class="preview" src="Images/Site1.jpg"></a>
+                            <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/Faraon78/FD1_OlgaShch/master/%D0%94%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%20FD1/Home.html" target="blank"><img class="preview" src="Images/Site2.jpg"></a>
                         </li>
                     </ul>
                 </section>
@@ -117,33 +126,35 @@
                 </section>  
                 <section>
                     <a class="anchor" name="code"><h3> CODE </h3></a>  
-                    <code>
-class MenuButton extends React.PureComponent {<br/>
-  selected = (EO) =&gt;{<br/>
-  this.props.cbSelectedCategory(this.props.id, this.props.name)}<br/>
-render() {<br/>                                
-  return (<br/>
-    &lt;div&gt;<br/>
-      {(this.props.id==0) &amp;&amp; &lt; NavLink to=&quot;/&quot; exact className=&quot;PageLink&quot;&gt;<br/>
-      &lt;button className=&quot;mainMenuButton&quot;   style={{backgroundColor:this.props.color}}  id={this.props.id} <br/>
-      onClick={this.selected}&gt;{this.props.name}&lt;/button&gt;<br/>
-      &lt;/NavLink>}<br/>
-      {(this.props.id>0) &amp;&amp; &lt;NavLink to={`/category-${this.props.id}-page1`} className=&quot;PageLink&quot;&gt;<br/>
-      &lt;button className= &quot;mainMenuButton&quot;   style={{backgroundColor:this.props.color}}  id={this.props.id} <br/>
-      onClick={this.selected}&gt;{this.props.name}&lt;/button&gt;<br/>
-      &lt;/NavLink&gt;}<br/>
-    &lt;/div&gt;<br/>
+                    <pre><code style="background-color: #3b3c49;">
+class MenuButton extends React.PureComponent {
+  selected = (EO) =&gt;{
+  this.props.cbSelectedCategory(this.props.id, this.props.name)}
+render() {                                
+  return (
+    &lt;div&gt;{(this.props.id==0) &amp;&amp; &lt;NavLink to=&quot;/&quot; exact className=&quot;PageLink&quot;&gt;
+      &lt;button className=&quot;mainMenuButton&quot; style={{backgroundColor:this.props.color}}  
+      id={this.props.id} onClick={this.selected}&gt; {this.props.name} &lt;/button&gt;
+      &lt;/NavLink>}
+      {(this.props.id>0) &amp;&amp; &lt;NavLink to={`/category-${this.props.id}-page1`} 
+      className=&quot;PageLink&quot;&gt;
+      &lt;button className= &quot;mainMenuButton&quot; style={{backgroundColor:this.props.color}}  
+      id={this.props.id} onClick={this.selected}&gt;{this.props.name}&lt;/button&gt;
+      &lt;/NavLink&gt;}
+    &lt;/div&gt;
   )}}
-</code>
+</code></pre>
                 </section>    
             </main>
         </div>
         <footer>
             <a href="https://rs.school/js/" target="blank"><img class="footer-logoRS" src="Images/rs_school_js.svg" alt="Logo Rsschool"></a>
             <div class="footer-year">2021</div>
-            <svg class="footer-logoGit" height="64" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" >
+            <a href="https://github.com/Faraon78" target="blank">
+                <svg class="footer-logoGit" height="64" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" >
                 <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
-            </svg>
+                </svg>
+            </a>
         </footer>
     </div>
     <script>
@@ -152,5 +163,7 @@ render() {<br/>
             document.getElementById("checkbox").checked=false;
         }
     </script>
+    <script src="highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 </html>
